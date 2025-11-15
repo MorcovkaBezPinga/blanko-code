@@ -3,28 +3,391 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Blanko Template Marketplace</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="javascript" href="./script.js" />
   </head>
   <body>
+    <!-- Header -->
     <header class="header">
-      <div class="container header-inner">
-        <a href="/" class="logo">blanko</a>
-
-        <a href="mailto:mail@blanko.com" class="header-mail">mail@blanko.com</a>
-
-        <div class="nav-group">
-          <nav class="nav">
-            <ul class="nav-list">
-              <li><a href="#">Landing</a></li>
-              <li><a href="#">All pages</a></li>
-              <li><a href="#">Template</a></li>
-            </ul>
+      <div class="container">
+        <div class="header-left">
+          <div class="logo">
+            <div class="logo-icon"></div>
+            <span>Blanko</span>
+          </div>
+          <nav class="nav-left">
+            <a href="#marketplace">Marketplace</a>
           </nav>
+        </div>
 
-          <a href="#" class="btn-primary">Purchase template</a>
+        <div class="header-right">
+          <nav class="nav-right">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#template">Template</a>
+          </nav>
+          <button class="btn btn-primary">Create your project</button>
         </div>
       </div>
     </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Blanko template</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              cursus mi in erat mollis varius. Phasellus interdum mauris ac
+              sodales finibus.
+            </p>
+            <div class="hero-buttons">
+              <button class="btn btn-dark">Purchase template</button>
+              <button class="btn btn-outline">View marketplace</button>
+            </div>
+          </div>
+
+          <div class="hero-cards">
+            <div class="profile-card">
+              <div class="profile-image">
+                <img
+                  src="https://images.unsplash.com/photo-1664891419647-5dfe3d310226?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWwlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjMxNzIzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                  alt="Profile"
+                />
+              </div>
+              <h3>Amelie Laurent</h3>
+              <p class="profile-subtitle">Visual designer</p>
+              <div class="profile-stats">
+                <div class="stat">
+                  <div class="stat-value">83</div>
+                  <div class="stat-label">Shots</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">122</div>
+                  <div class="stat-label">Followers</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">95</div>
+                  <div class="stat-label">Following</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-cards-right">
+              <div class="product-card">
+                <div class="product-info">
+                  <div class="product-thumbnail">
+                    <img
+                      src="https://images.unsplash.com/photo-1664891419647-5dfe3d310226?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWwlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjMxNzIzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                      alt="Product"
+                    />
+                  </div>
+                  <div class="product-details">
+                    <div class="product-label">
+                      Lorem ipsum dolor sit amet consectetur
+                    </div>
+                    <p class="product-price">$89.99</p>
+                  </div>
+                </div>
+                <button class="btn btn-dark btn-full">Purchase now</button>
+              </div>
+
+              <div class="related-products">
+                <h4>Related Products</h4>
+                <div class="related-grid">
+                  <div class="related-item">
+                    <img
+                      src="https://images.unsplash.com/photo-1684721689079-f3cb8b07381f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwcHJvZHVjdHxlbnwxfHx8fDE3NjMxNTE1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                      alt="Product 1"
+                    />
+                  </div>
+                  <div class="related-item">
+                    <img
+                      src="https://images.unsplash.com/photo-1684721689079-f3cb8b07381f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwcHJvZHVjdHxlbnwxfHx8fDE3NjMxNTE1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                      alt="Product 2"
+                    />
+                  </div>
+                  <div class="related-item">
+                    <img
+                      src="https://images.unsplash.com/photo-1684721689079-f3cb8b07381f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwcHJvZHVjdHxlbnwxfHx8fDE3NjMxNTE1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                      alt="Product 3"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"
+                />
+              </svg>
+            </div>
+            <div class="feature-content">
+              <h3>Travel</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                cursus mi in erat mollis.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="13.5" cy="6.5" r=".5" />
+                <circle cx="17.5" cy="10.5" r=".5" />
+                <circle cx="8.5" cy="7.5" r=".5" />
+                <circle cx="6.5" cy="12.5" r=".5" />
+                <path
+                  d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"
+                />
+              </svg>
+            </div>
+            <div class="feature-content">
+              <h3>Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                cursus mi in erat mollis.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.84 6.42-2.26 1.4.58-.42 7-.42 7 .57 1.07 1 2.24 1 3.44C21 17.9 16.97 21 12 21s-9-3-9-7.56c0-1.25.5-2.4 1-3.44 0 0-1.89-6.42-.5-7 1.39-.58 4.72.23 6.5 2.23A9.04 9.04 0 0 1 12 5Z"
+                />
+                <path d="M8 14v.5" />
+                <path d="M16 14v.5" />
+                <path d="M11.25 16.25h1.5L12 17l-.75-.75Z" />
+              </svg>
+            </div>
+            <div class="feature-content">
+              <h3>Webkitty</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                cursus mi in erat mollis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+      <div class="container-narrow">
+        <div class="testimonial-brand">DFRNK</div>
+        <blockquote class="testimonial-quote">
+          <p>
+            "Join a community of industry leading professionals. Join a
+            community of industry leading professionals and take."
+          </p>
+          <footer>
+            <cite>
+              <div class="testimonial-name">Lewis Dobbs</div>
+              <div class="testimonial-title">UX Designer</div>
+            </cite>
+          </footer>
+        </blockquote>
+        <div class="testimonial-dots">
+          <button class="dot active" onclick="changeSlide(0)"></button>
+          <button class="dot" onclick="changeSlide(1)"></button>
+          <button class="dot" onclick="changeSlide(2)"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Landing Pages Section -->
+    <section class="landing-pages">
+      <div class="container">
+        <h2>Landing pages</h2>
+
+        <div class="pages-grid">
+          <div class="page-card">
+            <div class="page-image">
+              <div class="page-overlay"></div>
+              <img
+                src="https://images.unsplash.com/photo-1630522790545-67ad2cb700fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc2MzExODQzMXww&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Landing two"
+              />
+              <div class="page-badge-container">
+                <span class="page-badge">Template</span>
+                <div class="page-label">Lorem ipsum dolor sit</div>
+              </div>
+            </div>
+            <h3>Landing two</h3>
+          </div>
+
+          <div class="page-card">
+            <div class="page-image">
+              <div class="page-overlay"></div>
+              <img
+                src="https://images.unsplash.com/photo-1630522790545-67ad2cb700fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc2MzExODQzMXww&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Landing five"
+              />
+              <div class="page-badge-container">
+                <span class="page-badge">Template</span>
+                <div class="page-label">Lorem ipsum dolor sit</div>
+              </div>
+            </div>
+            <h3>Landing five</h3>
+          </div>
+
+          <div class="page-card">
+            <div class="page-image">
+              <div class="page-overlay"></div>
+              <img
+                src="https://images.unsplash.com/photo-1630522790545-67ad2cb700fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc2MzExODQzMXww&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Landing three"
+              />
+              <div class="page-badge-container">
+                <span class="page-badge">Template</span>
+                <div class="page-label">Lorem ipsum dolor sit</div>
+              </div>
+            </div>
+            <h3>Landing three</h3>
+          </div>
+
+          <div class="page-card">
+            <div class="page-image">
+              <div class="page-overlay"></div>
+              <img
+                src="https://images.unsplash.com/photo-1630522790545-67ad2cb700fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc2MzExODQzMXww&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Landing four"
+              />
+              <div class="page-badge-container">
+                <span class="page-badge">Template</span>
+                <div class="page-label">Lorem ipsum dolor sit</div>
+              </div>
+            </div>
+            <h3>Landing four</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="logo">
+            <div class="logo-icon"></div>
+            <span>Blanko</span>
+          </div>
+
+          <nav class="footer-nav">
+            <a href="#company">Company</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#signup">Sign up</a>
+            <a href="#terms">Terms and Conditions</a>
+          </nav>
+
+          <button class="btn btn-light">Get Started</button>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-credits">
+            Powered by <span>Webflow</span> · Designed by <span>BRIX</span>
+          </div>
+
+          <div class="footer-social">
+            <a href="#" class="social-icon">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div class="footer-copyright">©2023</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
